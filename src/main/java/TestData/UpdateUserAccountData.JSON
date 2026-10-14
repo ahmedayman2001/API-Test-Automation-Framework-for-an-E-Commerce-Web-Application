@@ -1,0 +1,19 @@
+{
+  "name": "Rahul Sharma",
+  "email": "user_zu1g6b_1791562546300@gmail.com",
+  "password": "Pass@40546",
+  "title": "Mr",
+  "birth_date": "15",
+  "birth_month": "October",
+  "birth_year": "2000",
+  "firstname": "Rahul",
+  "lastname": "Sharma",
+  "company": "Tech Solutions India",
+  "address1": "123 MG Road",
+  "address2": "Apartment 4B",
+  "country": "India",
+  "zipcode": "400001",
+  "state": "Maharashtra",
+  "city": "Mumbai",
+  "mobile_number": "9876543210"
+}
