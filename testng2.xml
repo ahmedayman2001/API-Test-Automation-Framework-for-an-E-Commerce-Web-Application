@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="UserAccount APIs">
+
+    <test name="API_07 : API_14 : UserAccount APIS">
+
+        <classes>
+
+            <class name="Tests.UserAccount">
+
+                <methods>
+
+                    <include name="API_7_POST_ToCreateRegisterUserAccount"> </include>
+                    <include name="API_8_POST_ToVerifyLoginWithValidDetails"> </include>
+                    <include name="API_9_POST_ToVerifyLoginWithoutEmailParameter"> </include>
+                    <include name="API_10_DELETE_ToVerifyLogin"> </include>
+                    <include name="API_11_DELETE_METHODToDeleteUserAccount"> </include>
+                    <include name="API_12_PUT_METHOD_ToUpdateUserAccount"> </include>
+                    <include name="API_13_GET_UserAccountDetailByEmail"> </include>
+                    <include name="API_14_POST_ToVerifyLoginWithInvalidDetails"> </include>
+
+
+                </methods>
+
+            </class>
+
+        </classes>
+
+
+    </test>
+
+</suite>
+
+
+
+        <!--      allure serve     -->
+
+        <!--        Remove-Item -Recurse -Force allure-results     -->
