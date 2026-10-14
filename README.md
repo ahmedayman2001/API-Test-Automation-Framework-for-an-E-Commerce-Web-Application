@@ -1,0 +1,2 @@
+# API-Test-Automation-Framework-for-an-E-Commerce-Web-Application
+An API test automation framework built with Java, Rest Assured and TestNG to test the public REST APIs of the e-commerce website automationexercise.com. It covers all 14 documented APIs (8 positive and 6 negative scenarios) and uses JSON test data, externalized configuration, serialization/deserialization of request and response bodies, and Allure 
